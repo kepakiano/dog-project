@@ -14844,7 +14844,10 @@ Epoch 20/20
 <h2 id="Step-7:-Test-Your-Algorithm">Step 7: Test Your Algorithm<a class="anchor-link" href="#Step-7:-Test-Your-Algorithm">&#182;</a></h2><p>In this section, you will take your new algorithm for a spin!  What kind of dog does the algorithm think that <strong>you</strong> look like?  If you have a dog, does it predict your dog's breed accurately?  If you have a cat, does it mistakenly think that your cat is a dog?</p>
 <h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">&#182;</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
 <p><strong>Question 6:</strong> Is the output better than you expected :) ?  Or worse :( ?  Provide at least three possible points of improvement for your algorithm.</p>
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> The first three dogs in the first two images are mislabelled. I don't know exactly what breed they are, but they are neither Chinese Shar-Pei nor Labrador Retreiver. Also, they should get classified as the same breed, since they are from the same litter. However, they are only puppies, so they don't really resemble the way they will look like later.
+The Indian monk is classified as Bullmastiff, which is interesting. Also, the baker supposedly looks like the last dog.
+The last dog (images 5 and 6) gets classified as two different dogs, which is wrong. But Bernese mountain dog might actually be the correct label (we don't know exactly, since she was adopted).
+Overall, the output is a little better than I expected since the puppy in the second image resembles a Labrador retreiver and our dog might be a Bernese mountain dog. However, I don't think that the two people look anything like the breeds they are recognized as and the first two puppies are not misclassified. So, there is room for improvement.</p>
 
 </div>
 </div>
@@ -25936,17 +25939,6 @@ Resembling breed in images/6.jpg is Greater_swiss_mountain_dog
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The first three dogs in the first two images are mislabelled. I don't know exactly what breed they are, but they are neither Chinese Shar-Pei nor Labrador Retreiver. Also, they should get classified as the same breed, since they are from the same litter. However, they are only puppies, so they don't really resemble they way they will look like later.
-The Indian monk is classified as Bullmastiff, which is interesting. Also, the baker supposedly looks like the last dog.
-The last dog (images 5 and 6) gets classified as two different dogs, which is wrong. But Bernese mountain dog might actually be the correct label (we don't know exactly, since she was adopted).</p>
-
-</div>
-</div>
 </div>
     </div>
   </div>
